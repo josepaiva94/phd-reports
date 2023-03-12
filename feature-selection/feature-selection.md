@@ -123,7 +123,7 @@ sns.heatmap(corr_mtx_abs, annot=True, mask=mask, cmap=cmap)
 Through the above visualization, a few high correlation values are noticeable. To exclude features highly correlated
 with other features in the selected set, we must decide on an adequate correlation threshold, i.e., the value above
 which a pair is considered identical. Correlation thresholds are typically values equal or above 0.8 (e.g., 0.85, 0
-.90, and 0.95). In this case, as there are too many features and mostly low correlation values, 0.85 was the value
+.90, and 0.95). In this case, as there are too many features and mostly low correlation values, 0.9 was the value
 selected.
 
 
